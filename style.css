@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    height: 100px;
+    width: 100%;
+    border: 2px;
+
+}
+
+#first-head {
+    height: 30px;
+    width: 100%;
+    background-color: #c8043c;
+    border: 2px;
+    color: white;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 8px;
+
+
+}
+
+#second-head {
+    height: 70px;
+    width: 100%;
+    background-color: #e80440;
+    border: 2px;
+    margin: none;
+
+
+
+}
+
+
+#list {
+    text-align: right;
+    display: block;
+    list-style-type: none;
+    position: relative;
+    bottom: 10px;
+
+}
+
+nav>ul>li {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    float: left;
+    font-size: small;
+    padding-top: 0.20px;
+}
+
+nav>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav>ul>li {
+    float: right
+}
+
+#input {
+    float: left;
+    margin-left: 300px;
+    height: 40px;
+    width: 40%;
+    position: relative;
+    bottom: 30px;
+    font-size: small;
+    border: none;
+}
+
+button {
+    height: 40px;
+    position: relative;
+    bottom: 30px;
+    width: 7%;
+    background-color: black;
+    color: white;
+    border: none;
+
+
+}
+
+#right {
+    display: flex;
+    position: relative;
+    left: 80%;
+    bottom: 65px;
+    width: 10%;
+    height: 40px;
+    justify-content: space-between;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: small;
+
+
+
+}
+
+#screen-2{
+    height:700px;
+    width:100%;
+    border:1px solid black;
+}
+#screen{
+    height:500px;
+    width:70%;
+    border:1px solid red;
+    margin-left: 450px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#screen>div{
+    height:400px;
+    width:200px;
+    /* border:1px solid red; */
+    line-height: 30px;
+
+}
+#screen>div>img{
+    height:250px;
+    width:220px;
+}
+
+#screen>div>button{
+    height:30px;
+    width:80px;
+    border: 1px solid black;
+}
+
+#cartProducts2{
+    height:500px;
+    width:100%;
+    /* border:1px solid red; */
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+#cart{
+    height:400px;
+    width:250px;
+    border:1px solid black;
+  
+}
+
+#cart>img{
+    height:300px;
+    width:250px;
+    border:1px solid black;
+}
