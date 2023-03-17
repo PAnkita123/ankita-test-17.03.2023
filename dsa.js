@@ -28,13 +28,13 @@
 var number = 19;
 var array = [3, 5, 79, 45, 0, -67, 23, 77, 19, 78, 12]
 
-    for (var i = 0; i < array.length; i++) {
-        if (array.indexOf(number) ===! -1) {
-            return "found"
+    for (var i = 0; i < array.length; i++) 
+        if (array.indexOf(number) !== -1) {
+            console.log("found") 
         }else{
-            return "not found"
+            console.log("not found")
         }
-    }console.log(array[i])
+    
 
 
 
